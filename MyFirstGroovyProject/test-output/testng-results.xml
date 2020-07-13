@@ -2,35 +2,31 @@
 <testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="22675" started-at="2020-07-10T09:25:14 IST" finished-at="2020-07-10T09:25:36 IST">
+  <suite name="Suite" duration-ms="21852" started-at="2020-07-13T11:55:27 IST" finished-at="2020-07-13T11:55:49 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="22675" started-at="2020-07-10T09:25:14 IST" finished-at="2020-07-10T09:25:36 IST">
+    <test name="Test" duration-ms="21852" started-at="2020-07-13T11:55:27 IST" finished-at="2020-07-13T11:55:49 IST">
       <class name="com.CURA.Testcase.Login_CURA">
-        <test-method status="PASS" signature="setupSuite()[pri:0, instance:com.CURA.Testcase.Login_CURA@4df50bcc]" name="setupSuite" is-config="true" duration-ms="99" started-at="2020-07-10T09:25:13 IST" finished-at="2020-07-10T09:25:14 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupSuite -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.CURA.Testcase.Login_CURA@4df50bcc]" name="setUp" is-config="true" duration-ms="10563" started-at="2020-07-10T09:25:14 IST" finished-at="2020-07-10T09:25:24 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.CURA.Testcase.Login_CURA@25d250c6]" name="setUp" is-config="true" duration-ms="9830" started-at="2020-07-13T11:55:27 IST" finished-at="2020-07-13T11:55:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginApp()[pri:0, instance:com.CURA.Testcase.Login_CURA@4df50bcc]" name="loginApp" duration-ms="8442" started-at="2020-07-10T09:25:24 IST" finished-at="2020-07-10T09:25:33 IST">
+        <test-method status="PASS" signature="loginApp()[pri:0, instance:com.CURA.Testcase.Login_CURA@25d250c6]" name="loginApp" duration-ms="8298" started-at="2020-07-13T11:55:37 IST" finished-at="2020-07-13T11:55:46 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginApp -->
-        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.CURA.Testcase.Login_CURA@4df50bcc]" name="tearDownMethod" is-config="true" duration-ms="14" started-at="2020-07-10T09:25:33 IST" finished-at="2020-07-10T09:25:33 IST">
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.CURA.Testcase.Login_CURA@25d250c6]" name="tearDownMethod" is-config="true" duration-ms="15" started-at="2020-07-13T11:55:46 IST" finished-at="2020-07-13T11:55:46 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginApp status=SUCCESS method=Login_CURA.loginApp()[pri:0, instance:com.CURA.Testcase.Login_CURA@4df50bcc] output={null}]]]>
+                <![CDATA[[TestResult name=loginApp status=SUCCESS method=Login_CURA.loginApp()[pri:0, instance:com.CURA.Testcase.Login_CURA@25d250c6] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method status="FAIL" signature="loginApp_test1()[pri:0, instance:com.CURA.Testcase.Login_CURA@4df50bcc]" name="loginApp_test1" duration-ms="2506" started-at="2020-07-10T09:25:33 IST" finished-at="2020-07-10T09:25:35 IST">
+        <test-method status="FAIL" signature="loginApp_test1()[pri:0, instance:com.CURA.Testcase.Login_CURA@25d250c6]" name="loginApp_test1" duration-ms="2496" started-at="2020-07-13T11:55:46 IST" finished-at="2020-07-13T11:55:48 IST">
           <exception class="java.lang.ArrayIndexOutOfBoundsException">
             <message>
               <![CDATA[10]]>
@@ -75,18 +71,18 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginApp_test1 -->
-        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.CURA.Testcase.Login_CURA@4df50bcc]" name="tearDownMethod" is-config="true" duration-ms="466" started-at="2020-07-10T09:25:35 IST" finished-at="2020-07-10T09:25:36 IST">
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.CURA.Testcase.Login_CURA@25d250c6]" name="tearDownMethod" is-config="true" duration-ms="482" started-at="2020-07-13T11:55:48 IST" finished-at="2020-07-13T11:55:49 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginApp_test1 status=FAILURE method=Login_CURA.loginApp_test1()[pri:0, instance:com.CURA.Testcase.Login_CURA@4df50bcc] output={null}]]]>
+                <![CDATA[[TestResult name=loginApp_test1 status=FAILURE method=Login_CURA.loginApp_test1()[pri:0, instance:com.CURA.Testcase.Login_CURA@25d250c6] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.CURA.Testcase.Login_CURA@4df50bcc]" name="tearDown" is-config="true" duration-ms="648" started-at="2020-07-10T09:25:36 IST" finished-at="2020-07-10T09:25:36 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.CURA.Testcase.Login_CURA@25d250c6]" name="tearDown" is-config="true" duration-ms="689" started-at="2020-07-13T11:55:49 IST" finished-at="2020-07-13T11:55:49 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

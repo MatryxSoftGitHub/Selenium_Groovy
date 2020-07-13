@@ -3,13 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ReportsInGroovySelenium.DemoHEllo">
+      <class name="com.CURA.Testcase.Login_CURA">
         <methods>
-          <include name="extentReportsDemo"/>
-          <include name="startTest"/>
-          <include name="endTest"/>
+          <include name="tearDown"/>
+          <include name="loginApp_test1"/>
+          <include name="setUp"/>
+          <include name="tearDownMethod"/>
         </methods>
-      </class> <!-- ReportsInGroovySelenium.DemoHEllo -->
+      </class> <!-- com.CURA.Testcase.Login_CURA -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

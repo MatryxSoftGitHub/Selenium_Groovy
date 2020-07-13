@@ -23,17 +23,20 @@ class BaseClass {
 	public ExtentReports report
 	public ExtentTest logger
 	
-	@BeforeSuite
-	public void setupSuite() {
-		excel = new ExcelDataProvider()
-		config = new ConfigDataProvider()
-
-	}
 	
+//	@BeforeSuite
+//	public void setupSuite() {
+//		
+//
+//	}
+//	
 	@BeforeClass
 	public void setUp() {
+		excel = new ExcelDataProvider()
+		config = new ConfigDataProvider()
 		
-		driver = BrowserFactory.startApllication(driver,config.getBrowser(),config.getURL())
+		//driver = BrowserFactory.startApllication(driver, config.getBrowser(), config.getURL())
+		driver = BrowserFactory.startApllication(driver,'Chrome','https://katalon-demo-cura.herokuapp.com')
 	}
 	
 	@AfterClass

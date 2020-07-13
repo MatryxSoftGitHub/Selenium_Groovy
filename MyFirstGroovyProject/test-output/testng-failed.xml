@@ -8,7 +8,6 @@
           <include name="tearDown"/>
           <include name="loginApp_test1"/>
           <include name="setUp"/>
-          <include name="setupSuite"/>
           <include name="tearDownMethod"/>
         </methods>
       </class> <!-- com.CURA.Testcase.Login_CURA -->

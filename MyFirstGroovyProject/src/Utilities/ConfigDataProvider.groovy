@@ -17,7 +17,7 @@ class ConfigDataProvider {
 			pro.load(fis)
 		}
 		catch(Exception e) {
-			println "Not able to load config file"
+			//println "Not able to load config file"
 		}
 	}
 
