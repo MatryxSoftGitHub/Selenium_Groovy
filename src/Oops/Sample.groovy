@@ -1,0 +1,4 @@
+package Oops
+
+class Sample {
+}
